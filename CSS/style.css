@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+:root {
+    --main-bg-color: #2874f0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: var(--main-bg-color);
+    display: flex;
+    align-items: center;
+    height: 63px;
+}
+
+
+#flipkartlogo {
+    height: 27px;
+    padding: 5px 21px 0px 21px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 0px 0px 0px 20px;
+}
+
+nav  ul li a:hover {
+    font-weight: bold;
+    /* font-size: 18px; */
+
+    color: rgb(255, 255, 255);
+
+}
+
+/* nav ul li a:hover{ 
+    font-weight: bolder;
+} */
+.searchbar {
+    padding: 0px 10px;
+    margin: 0px 10px 0px 80px;
+    width: 411px;
+    height: 33px;
+    border-radius: 3px;
+    border: none;
+}
+
+nav  ul {
+    list-style: none;
+    display: flex;
+
+}
+
+.btn {
+    padding: 6px 13px;
+    border: none;
+    border-radius: 5px;
+    font-family: Arial;
+    color: #dceafa;
+    font-size: 12px;
+    background: #3982f7;
+    padding: 6px 12px;
+    text-decoration: none;
+    margin: 0px 20px 0px 0px;
+}
+
+.btn:hover {
+    background: #2d71e0;
+    text-decoration: none;
+}
+
+.container {
+    min-height: calc(100vh - 46px - 8vh);
+}
+.slider{
+    width: 80vw;
+    margin: 15px auto 50px auto;
+    /* overflow:scroll; */
+    background-image: url("https://source.unsplash.com/1600x500/?shopping,iphones,macbook,applewatch,imac");
+    background-size: contain;
+background-repeat: no-repeat;
+    height: 25vw;
+}
+.template{
+    /* background-color: rgba(233, 232, 232, 0.68); */
+    width: 88vw;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 3px;
+  }
+
+h2{
+    margin: 0px 20px;
+    font-family: 'Lato', sans-serif;
+
+}
+.card{
+    display: flex;
+
+    width: 87vw;
+    margin: 25px auto;
+    overflow: hidden;
+
+}
+.card-item
+{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 25px;
+    width: 200px;
+}
+.footer {
+
+        height: 8vh;
+        background-color: var(--main-bg-color); 
+        color: white;
+        font-family: 'Lato', sans-serif;
+    }

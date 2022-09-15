@@ -1,0 +1,157 @@
+@media screen and (max-width: 1000px) and (min-width:641px) {
+    .searchbar {
+
+        margin: 0px 10px 0px 30px;
+
+    }
+
+    .card-item {
+        display: flex;
+        flex-direction: column;
+        margin: 0px 25px;
+        width: 160px;
+    }
+
+    h2 {
+        margin: 0px 8vw;
+        font-family: 'Lato', sans-serif;
+
+    }
+
+    .card {
+        display: flex;
+
+        width: 82vw;
+        margin: 25px auto;
+        overflow: scroll;
+
+    }
+}
+
+@media screen and (max-width:640px) and (min-width:500px) {
+
+    nav {
+        background-color: var(--main-bg-color);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 147px;
+    }
+
+    .subnav {
+        margin: 10px auto;
+        display: flex;
+        width: 89vw;
+
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    .searchbar {
+        margin: 5px auto 10px auto;
+        width: 80vw;
+        height: 33px;
+
+    }
+
+    .slider {
+        width: 80vw;
+        margin: 15px auto 20px auto;
+        background-size: contain;
+        height: 25vw;
+        background-image: url("https://source.unsplash.com/1600x500/?shopping,iphones,apple");
+    }
+
+    .btn {
+        margin: 5px auto 10px auto;
+    }
+
+    .card-item {
+        display: flex;
+        flex-direction: column;
+        margin: 0px 25px;
+        width: 121px;
+    }
+
+    h2 {
+        margin: 0px 8vw;
+        font-family: 'Lato', sans-serif;
+        font-size: 19px;
+
+    }
+
+    .card {
+        display: flex;
+
+        width: 82vw;
+        margin: 25px auto;
+        overflow: scroll;
+
+    }
+}
+
+@media screen and (max-width:499px) {
+    nav {
+        background-color: var(--main-bg-color);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 148px;
+    }
+
+    .slider {
+        width: 80vw;
+        margin: 15px auto 20px auto;
+        background-size: contain;
+        height: 25vw;
+        background-image: url("https://source.unsplash.com/1600x500/?shopping,iphones,macbook,applewatch,imac");
+
+    }
+
+    .card-item {
+        display: flex;
+        flex-direction: column;
+        margin: 0px 25px;
+        width: 92px;
+    }
+
+    .subnav {
+        margin: 10px auto;
+        display: flex;
+        width: 89vw;
+
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    .searchbar {
+        margin: 5px auto 10px auto;
+        width: 80vw;
+    }
+
+    .btn {
+        margin: 5px auto 10px auto;
+    }
+
+    h2 {
+        margin: 0px 8vw;
+        font-family: 'Lato', sans-serif;
+        font-size: 19px;
+
+    }
+
+    .card {
+        display: flex;
+
+        width: 82vw;
+        margin: 25px auto;
+        overflow: hidden;
+
+    }
+
+    .lines {
+        font-size: 14px;
+    }
+}
